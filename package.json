@@ -1,0 +1,22 @@
+{
+  "name": "christian-git",
+  "version": "1.0.0",
+  "description": "A collection of aliases to sanctify your Git workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmacarthur/christian-git.git"
+  },
+  "author": "Alex MacArthur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexmacarthur/christian-git/issues"
+  },
+  "homepage": "https://github.com/alexmacarthur/christian-git#readme",
+  "bin": {
+    "Jesus": "./index.js"
+  }
+}
