@@ -1,7 +1,13 @@
 {
   "name": "christian-git",
-  "version": "1.0.0",
-  "description": "A collection of aliases to sanctify your Git workflow.",
+  "version": "2.0.0",
+  "description": "A collection of Christianized aliases to sanctify your Git workflow.",
+  "keywords": [
+    "git",
+    "git alias",
+    "version control",
+    "vcs"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

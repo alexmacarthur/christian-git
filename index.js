@@ -22,10 +22,10 @@ let child = spawn('git', completeCommand);
 
 //-- Output what our command returns.
 child.stdout.on('data', (data) => {
-  console.log(`${outputString} ${gitCommand} \n\n${data}`);
+  console.log('\x1b[35m%s\x1b[m', `${outputString} ${gitCommand} \n\n${data}`);
 });
 
 child.stderr.on('data', (data) => {
-  console.log(`${outputString} ${gitCommand} \n\n${data}`);
+  console.log('\x1b[35m%s\x1b[m', `${outputString} ${gitCommand} \n\n${data}`);
 });
 
