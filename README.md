@@ -1,12 +1,12 @@
 # Christian Git
 
-A collection of Christianized aliases to sanctify your Git workflow. 
+A collection of Christianized aliases to sanctify your Git workflow.
 
 ## What is this?
 
-Install this package and you'll have a collection of Christian-ese git aliases at your fingetips. 
+Install this package and you'll have a collection of Christian-ese git aliases at your fingetips.
 
-For example, `Jesus testimony` calls `git log`. 
+For example, `Jesus testimony` calls `git log`.
 
 | Command         | Alias       | Explanation
 | ------------- |---------------|--------
@@ -19,10 +19,11 @@ For example, `Jesus testimony` calls `git log`.
 | merge | trinity | Father, Son, and Holy Spirit. Three in One.
 | pull | petition | Petition the Lord through prayer to grant you those remote code changes.
 | push | preach | Proudly declare your Gospel code to those who need it.
-| rebase | disciple | Regularly examine your code, words and actions and compare them with the Word of God. 
+| rebase | disciple | Regularly examine your code, words and actions and compare them with the Word of God.
 | reset | ark | God hit reset on the earth.
 | status        | walk | How's your code's walk with the Lord?
 | tag | testament | God's way of semantic versioning.
+| blame | judas | Truly I tell you, one of you will betray me.
 
 
 ## Installation
