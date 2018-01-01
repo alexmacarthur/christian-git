@@ -19,4 +19,5 @@ module.exports = {
   reset: 'ark',           // God hit reset on the earth.
   status: 'walk',         // How's your code's walk with the Lord?
   tag: 'testament',       // God's way of semantic versioning.
+  blame: 'judas',         // Truly I tell you, one of you will betray me.
 };
