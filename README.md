@@ -1,10 +1,12 @@
 # Christian Git
 
+[![](https://api.codeclimate.com/v1/badges/410bbdeecc970066ba71/maintainability)](https://codeclimate.com/github/alexmacarthur/christian-git/maintainability)
+
 A collection of Christianized aliases to sanctify your Git workflow. 
 
 ## What is this?
 
-Install this package and you'll have a collection of Christian-ese git aliases at your fingetips. 
+Install this package and you'll have a collection of Christian-ese git aliases at your fingetips. You can use this package to completely replace your need to call `git` on your machine. If a Christian alias doesn't exist, it'll fall back to use the default command provided by Git.
 
 For example, `Jesus testimony` calls `git log`. 
 

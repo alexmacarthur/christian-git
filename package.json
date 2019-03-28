@@ -1,6 +1,6 @@
 {
   "name": "christian-git",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A collection of Christianized aliases to sanctify your Git workflow.",
   "keywords": [
     "git",
@@ -10,12 +10,18 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./**/*.js",
+    "prettify": "prettier \"./**/*.js\" --write",
+    "clean-up-and-add": "npm run lint && npm run prettify && git add -A"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexmacarthur/christian-git.git"
   },
+  "pre-commit": [
+    "clean-up-and-add"
+  ],
   "author": "Alex MacArthur",
   "license": "MIT",
   "bugs": {
@@ -24,5 +30,13 @@
   "homepage": "https://github.com/alexmacarthur/christian-git#readme",
   "bin": {
     "Jesus": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.16.4"
   }
 }
