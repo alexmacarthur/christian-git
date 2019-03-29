@@ -19,6 +19,7 @@ module.exports = {
   push: 'preach',         // Proudly declare your Gospel code to those who need it.
   rebase: 'disciple',     // Regularly examine your code, words and actions and compare them with the Word of God.
   reset: 'ark',           // God hit reset on the earth.
+  stash: 'whiteassnow',   // Jesus has washed away your changes and your repo is white as snow.
   status: 'walk',         // How's your code's walk with the Lord?
   tag: 'testament'        // God's way of semantic versioning.
 };
