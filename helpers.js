@@ -23,7 +23,7 @@ const flip = function(obj) {
  */
 const generateMessage = function(gitCommand, data) {
   let message = chalk.magenta.bold(
-    `Running Christian alias for \`git ${gitCommand}\`...`
+    `Running Christian Git command for \`git ${gitCommand}\`...`
   );
   return message + `\n\n${chalk.magenta(data)}`;
 };
