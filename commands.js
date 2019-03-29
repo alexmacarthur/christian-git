@@ -10,6 +10,7 @@ module.exports = {
   blame: 'judas',         // Truly I tell you, one of you will betray me.
   branch: 'vine',         // He is the vine, we are the branches.
   checkout: 'resurrect',  // Resurrect what was once alive.
+  clone: 'breadandfish'   // Jesus fed the 5000 with five loaves and two fish.
   commit: 'save',         // Commit your code to the Lord and it will be saved.
   init: 'inthebeginning', // Start us off, God.
   log: 'testimony',       // Use your code's testimony to share the path the Lord has led you along.
