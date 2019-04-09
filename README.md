@@ -50,11 +50,7 @@ Whenever you'd normally use `git`, use `christian-git` instead, followed by what
 
 ## Contributions
 
-If you have an alias idea, make a PR.
-
-If you have an alias improvement, make a PR.
-
-If you have a better alias explanation, make a PR.
+If you have an alias suggestion, or just some ideas to make the project better, fork this project & make a pull request! 
 
 ## Feedback
 
