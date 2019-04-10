@@ -12,6 +12,7 @@ module.exports = {
   checkout: 'resurrect',  // Resurrect what was once alive.
   clone: 'breadandfish',  // Jesus fed the 5000 with five loaves and two fish.
   commit: 'save',         // Commit your code to the Lord and it will be saved.
+  diff: 'reform',         // The repo reformed, always being reformed by the power of the Admin.
   fetch: 'fishersofmen',  // Become a fisher of (the code of) men.
   init: 'inthebeginning', // Start us off, God.
   log: 'testimony',       // Use your code's testimony to share the path the Lord has led you along.
@@ -22,6 +23,5 @@ module.exports = {
   reset: 'ark',           // God hit reset on the earth.
   stash: 'whiteassnow',   // Jesus has washed away your changes and your repo is white as snow.
   status: 'walk',         // How's your code's walk with the Lord?
-  tag: 'testament',       // God's way of semantic versioning.
-  diff: 'reform'          // The repo reformed, always being reformed by the power of the Admin
+  tag: 'testament'        // God's way of semantic versioning.
 };
