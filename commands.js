@@ -12,6 +12,7 @@ module.exports = {
   checkout: 'resurrect',  // Resurrect what was once alive.
   clone: 'breadandfish',  // Jesus fed the 5000 with five loaves and two fish.
   commit: 'save',         // Commit your code to the Lord and it will be saved.
+  fetch: 'fishersofmen',  // Become a fisher of (the code of) men.
   init: 'inthebeginning', // Start us off, God.
   log: 'testimony',       // Use your code's testimony to share the path the Lord has led you along.
   merge: 'trinity',       // Father, Son, and Holy Spirit. Three in One.
