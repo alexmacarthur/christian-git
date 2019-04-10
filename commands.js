@@ -22,5 +22,6 @@ module.exports = {
   reset: 'ark',           // God hit reset on the earth.
   stash: 'whiteassnow',   // Jesus has washed away your changes and your repo is white as snow.
   status: 'walk',         // How's your code's walk with the Lord?
-  tag: 'testament'        // God's way of semantic versioning.
+  tag: 'testament',       // God's way of semantic versioning.
+  diff: 'reform'          // The repo reformed, always being reformed by the power of the Admin
 };
