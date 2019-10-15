@@ -6,9 +6,9 @@
     "git",
     "git alias",
     "version control",
-    "vcs", 
+    "vcs",
     "faith",
-    "religion", 
+    "religion",
     "christian"
   ],
   "main": "index.js",
@@ -32,14 +32,14 @@
   },
   "homepage": "https://github.com/alexmacarthur/christian-git#readme",
   "bin": {
-    "Jesus": "./index.js", 
+    "Jesus": "./index.js",
     "christian-git": "./index.js"
   },
   "dependencies": {
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
   }
