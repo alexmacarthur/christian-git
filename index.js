@@ -14,10 +14,10 @@ completeCommand.splice(0, 3, gitCommand);
 let child = spawn("git", completeCommand);
 
 //-- Output what our command returns.
-child.stdout.on("data", data => {
+child.stdout.on("data", (data) => {
   console.log(generateMessage(gitCommand, data));
 });
 
-child.stderr.on("data", data => {
+child.stderr.on("data", (data) => {
   console.log(generateMessage(gitCommand, data));
 });

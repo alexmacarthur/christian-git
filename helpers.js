@@ -7,7 +7,7 @@ const commands = require("./commands");
  * @param {object} obj
  * @returns {object}
  */
-const flip = function(obj) {
+const flip = function (obj) {
   let flipped = {};
 
   for (let key in obj) {
@@ -21,7 +21,7 @@ const flip = function(obj) {
  * Append a message to a pre-generated introductory message.
  * @param {string} data
  */
-const generateMessage = function(gitCommand, data) {
+const generateMessage = function (gitCommand, data) {
   let message = chalk.magenta.bold(
     `Running Christian Git command for \`git ${gitCommand}\`...`
   );
@@ -33,7 +33,7 @@ const generateMessage = function(gitCommand, data) {
  * If it doesn't exist, return the alias itself. Enables backward compatibility.
  * @param {string} alias
  */
-const gitCommandByAlias = function(alias) {
+const gitCommandByAlias = function (alias) {
   let flippedCommands = flip(commands);
   return flippedCommands[alias] === undefined
     ? [alias]
@@ -43,5 +43,5 @@ const gitCommandByAlias = function(alias) {
 module.exports = {
   flip,
   gitCommandByAlias,
-  generateMessage
+  generateMessage,
 };

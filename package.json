@@ -15,16 +15,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./**/*.js",
-    "prettify": "prettier \"./**/*.js\" --write",
-    "clean-up-and-add": "npm run lint && npm run prettify && git add -A"
+    "prettier": "prettier --write \"**/*.{md,js}\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexmacarthur/christian-git.git"
   },
-  "pre-commit": [
-    "clean-up-and-add"
-  ],
   "author": "Alex MacArthur",
   "license": "MIT",
   "bugs": {
@@ -36,11 +32,23 @@
     "christian-git": "./index.js"
   },
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "pre-commit": "^1.2.2",
-    "prettier": "^1.16.4"
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^2.0.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
