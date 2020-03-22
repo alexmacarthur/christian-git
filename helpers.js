@@ -1,27 +1,26 @@
 const chalk = require("chalk");
+const chalkCTX = new chalk.Instance({ level: 3 });
 const commands = require("./commands");
 
 /**
- * Append a message to a pre-generated introductory message.
- * 
- * @param {string} data
+ * Output a message of particular color.
+ *
+ * @param {string} message
+ * @param {array} color
  */
-const generateMessage = function (gitCommand, data) {
-  let message = chalk.magenta.bold(
-    `Running Christian Git command for \`git ${gitCommand}\`...`
-  );
-  return `${message}\n\n${chalk.magenta(data)}`;
+const colorLog = function (message, color = [120, 81, 169]) {
+  console.log(chalkCTX.rgb(...color)(chalk.bold(message)));
 };
 
 /**
  * Retrieve the appropriate `git` command from the alias that was passed.
  * If it doesn't exist, return the alias itself. Enables backward compatibility.
- * 
+ *
  * @param {string} alias
  */
 const getCommandByAlias = function (alias) {
   for (let command in commands) {
-    let commandHasAlias = commands[command].find(a => alias === a);
+    let commandHasAlias = commands[command].find((a) => alias === a);
 
     if (commandHasAlias) {
       return command;
@@ -32,6 +31,6 @@ const getCommandByAlias = function (alias) {
 };
 
 module.exports = {
+  colorLog,
   getCommandByAlias,
-  generateMessage,
 };
