@@ -2,7 +2,7 @@
 
 [![](https://api.codeclimate.com/v1/badges/410bbdeecc970066ba71/maintainability)](https://codeclimate.com/github/alexmacarthur/christian-git/maintainability)
 
-A Christian wrapper for Git to sanctify your version control workflow. 
+A Christian wrapper for Git to sanctify your version control workflow.
 
 ## What is this?
 
@@ -31,7 +31,7 @@ For example, `christian-git testimony` calls `git log`.
 | rebase   | disciple       | Regularly examine your code, words and actions and compare them with the Word of God. |
 | reflog | resurrect | Resurrect what was once alive. |
 | reset    | ark            | God hit reset on the earth.                                                           |
-| stash    | white-ass-snow   | Jesus has washed away your changes and your repo is white as snow.                    |
+| stash    | white-as-snow   | Jesus has washed away your changes and your repo is white as snow.                    |
 | status   | walk           | How's your code's walk with the Lord?                                                 |
 | tag      | testament      | God's way of semantic versioning.                                                     |
 
@@ -64,7 +64,6 @@ Whenever you'd normally use `git`, use `christian-git` instead, followed by what
 **Pagan:** `git log --pretty=format:"%h - %an, %ar : %s"`
 
 **Righteous:** `christian-git testimony --pretty=format:"%h - %an, %ar : %s"`
-
 
 ## Contributions
 
