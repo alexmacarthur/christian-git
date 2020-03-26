@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/alexmacarthur/christian-git#readme",
   "bin": {
-    "Jesus": "./index.js",
     "christian-git": "./index.js"
   },
   "dependencies": {
