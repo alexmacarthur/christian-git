@@ -8,6 +8,6 @@ let gitCommand = getCommandByAlias(completeCommand[2]);
 
 completeCommand.splice(0, 3, gitCommand);
 
-colorLog(`Running Christian Git command for \`git ${gitCommand}\`:\n`);
+colorLog(`✝️ Running Christian Git command for \`git ${gitCommand}\`:\n`);
 
 spawnSync("git", completeCommand, { stdio: "inherit" });
