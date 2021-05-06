@@ -22,6 +22,7 @@ module.exports = {
   rebase: ['disciple'],
   reflog: ['resurrect'],
   reset: ['ark'],
+  revert: ['repent'],
   stash: ['white-as-snow'],
   status: ['walk'],
   tag: ['testament']
