@@ -32,7 +32,7 @@ For example, `christian-git testimony` calls `git log`.
 | reflog | resurrect | Resurrect what was once alive. |
 | reset    | ark            | God hit reset on the earth.                                                           |
 | revert    | repent            | Turn back from your sinful ways.                                                           |
-| stash    | white-as-snow   | Jesus has washed away your changes and your repo is white as snow.                    |
+| stash    | sow-and-reap   | Regularly sow your code so that you may reap its blessings later.                     |
 | status   | walk           | How's your code's walk with the Lord?                                                 |
 | tag      | testament      | God's way of semantic versioning.                                                     |
 

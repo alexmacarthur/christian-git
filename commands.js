@@ -5,7 +5,7 @@
  |--------------------------------------------------------------------------
  */
 
-module.exports = {
+ module.exports = {
   add: ['annoint'],
   blame: ['judas'],
   branch: ['vine'],
@@ -23,7 +23,7 @@ module.exports = {
   reflog: ['resurrect'],
   reset: ['ark'],
   revert: ['repent'],
-  stash: ['white-as-snow'],
+  stash: ['sow-and-reap'],
   status: ['walk'],
   tag: ['testament']
 };
