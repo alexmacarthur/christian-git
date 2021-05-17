@@ -14,7 +14,7 @@ For example, `christian-git testimony` calls `git log`.
 
 | Command  | Alias          | Explanation                                                                           |
 | -------- | -------------- | ------------------------------------------------------------------------------------- |
-| add      | annoint        | Your code's been annointed by God to be saved.                                        |
+| add      | anoint        | Your code's been anointed by God to be saved.                                        |
 | blame    | judas          | Truly I tell you, one of you will betray me.                                          |
 | branch   | vine           | He is the vine, we are the branches.                                                  |
 | checkout | possess      | Resurrect what was once alive.                                                        |
