@@ -6,7 +6,7 @@
  */
 
  module.exports = {
-  add: ['annoint'],
+  add: ['anoint'],
   blame: ['judas'],
   branch: ['vine'],
   checkout: ['possess'],
