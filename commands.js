@@ -1,11 +1,11 @@
 /*
  |--------------------------------------------------------------------------
- | Below are the aliases defined for each Git command.
+ | Below are the commands & aliases defined for each Git command.
  | Have one to add? Make a PR!
  |--------------------------------------------------------------------------
  */
 
- module.exports = {
+const commands = {
   add: ['anoint'],
   blame: ['judas'],
   branch: ['vine'],
@@ -27,3 +27,9 @@
   status: ['walk'],
   tag: ['testament']
 };
+
+const aliases = {
+  'branch -D': ['crucify'],
+}
+
+module.exports = Object.assign(commands, aliases);

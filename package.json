@@ -13,9 +13,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./**/*.js",
-    "prettier": "prettier --write \"**/*.{md,js}\""
+    "prettier": "prettier --write \"**/*.{md,js}\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -35,19 +35,12 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "^7.0.2",
+    "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+    "*.js": "eslint --cache --fix",
+    "*.{js,md}": "prettier --write"
   }
 }
