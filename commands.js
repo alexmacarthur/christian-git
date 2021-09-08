@@ -20,7 +20,7 @@
   pull: ['petition'],
   push: ['preach'],
   rebase: ['disciple'],
-  reflog: ['resurrect'],
+  restore: ['resurrect'],
   reset: ['ark'],
   revert: ['repent'],
   stash: ['sow-and-reap'],
