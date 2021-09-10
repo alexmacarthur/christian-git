@@ -46,7 +46,7 @@ Aliases that provide shorthand means of running more complex commands (basically
 
 | Heathen Command | Redeemed Alias | Explanation                                    |
 | --------------- | -------------- | ---------------------------------------------- |
-| branch -D       | crucify        | Delete the branch that no longer brears fruit. |
+| branch -D       | crucify        | Delete the branch that no longer bears fruit. |
 
 ## Installation
 
