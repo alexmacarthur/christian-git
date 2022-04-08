@@ -15,7 +15,7 @@ Each of these commands will respect any flags you include, passing them through 
 Commands that override core Git commands.
 
 | Heathen Command | Redeemed Command | Explanation                                                                           |
-| --------------- | ---------------- | ------------------------------------------------------------------------------------- |
+| --------------- | ---------------- |---------------------------------------------------------------------------------------|
 | add             | anoint           | Your code's been anointed by God to be saved.                                         |
 | blame           | judas            | Truly I tell you, one of you will betray me.                                          |
 | branch          | vine             | He is the vine, we are the branches.                                                  |
@@ -37,6 +37,7 @@ Commands that override core Git commands.
 | stash           | sow-and-reap     | Regularly sow your code so that you may reap its blessings later.                     |
 | status          | walk             | How's your code's walk with the Lord?                                                 |
 | tag             | testament        | God's way of semantic versioning.                                                     |
+| bisect          | lost-sheep       | Become the good shepherd and find those led astray.                                   |
 
 ## Alias
 

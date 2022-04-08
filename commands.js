@@ -25,7 +25,8 @@ const commands = {
   revert: ['repent'],
   stash: ['sow-and-reap'],
   status: ['walk'],
-  tag: ['testament']
+  tag: ['testament'],
+  bisect: ['lost-sheep']
 };
 
 const aliases = {
