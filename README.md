@@ -47,6 +47,7 @@ Aliases that provide shorthand means of running more complex commands (basically
 | Heathen Command | Redeemed Alias | Explanation                                    |
 | --------------- | -------------- | ---------------------------------------------- |
 | branch -D       | crucify        | Delete the branch that no longer bears fruit. |
+| push --force    | indoctrinate   | Force the theology of your code onto the vulnerable and gullable. |
 
 ## Installation
 
