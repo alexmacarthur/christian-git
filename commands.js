@@ -30,6 +30,7 @@ const commands = {
 
 const aliases = {
   'branch -D': ['crucify'],
+  'push --force': ['indoctrinate']
 }
 
 module.exports = Object.assign(commands, aliases);
