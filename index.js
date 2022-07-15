@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const { spawnSync } = require("child_process");
-const { getCommandByAlias, colorLog } = require("./helpers");
+import { spawnSync } from "child_process";
+import { getCommandByAlias, colorLog } from "./helpers.js";
 
 let completeCommand = [...process.argv];
 const gitCommand = getCommandByAlias(completeCommand[2]);

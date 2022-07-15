@@ -15,7 +15,7 @@ Each of these commands will respect any flags you include, passing them through 
 Commands that override core Git commands.
 
 | Heathen Command | Redeemed Command | Explanation                                                                           |
-| --------------- | ---------------- |---------------------------------------------------------------------------------------|
+| --------------- | ---------------- | ------------------------------------------------------------------------------------- |
 | add             | anoint           | Your code's been anointed by God to be saved.                                         |
 | blame           | judas            | Truly I tell you, one of you will betray me.                                          |
 | branch          | vine             | He is the vine, we are the branches.                                                  |
@@ -45,9 +45,9 @@ Aliases that provide shorthand means of running more complex commands (basically
 
 ## Aliases
 
-| Heathen Command | Redeemed Alias | Explanation                                    |
-| --------------- | -------------- | ---------------------------------------------- |
-| branch -D       | crucify        | Delete the branch that no longer bears fruit. |
+| Heathen Command | Redeemed Alias | Explanation                                                       |
+| --------------- | -------------- | ----------------------------------------------------------------- |
+| branch -D       | crucify        | Delete the branch that no longer bears fruit.                     |
 | push --force    | indoctrinate   | Force the theology of your code onto the vulnerable and gullable. |
 
 ## Installation

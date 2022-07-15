@@ -1,6 +1,7 @@
-const chalk = require("chalk");
-const chalkCTX = new chalk.Instance({ level: 3 });
-const commands = require("./commands");
+import chalk, { Chalk } from "chalk";
+import commands from "./commands.js";
+
+const chalkCTX = new Chalk({ level: 3 });
 
 /**
  * Output a message of particular color.
@@ -8,7 +9,7 @@ const commands = require("./commands");
  * @param {string} message
  * @param {array} color
  */
-const colorLog = function (message, color = [120, 81, 169]) {
+export const colorLog = function (message, color = [120, 81, 169]) {
   console.log(chalkCTX.rgb(...color)(chalk.bold(message)));
 };
 
@@ -18,7 +19,7 @@ const colorLog = function (message, color = [120, 81, 169]) {
  *
  * @param {string} alias
  */
-const getCommandByAlias = function (alias) {
+export const getCommandByAlias = function (alias) {
   for (let command in commands) {
     let commandHasAlias = commands[command].find((a) => alias === a);
 
@@ -28,9 +29,4 @@ const getCommandByAlias = function (alias) {
   }
 
   return alias;
-};
-
-module.exports = {
-  colorLog,
-  getCommandByAlias,
 };
