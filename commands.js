@@ -34,4 +34,4 @@ const aliases = {
   'push --force': ['indoctrinate']
 }
 
-module.exports = Object.assign(commands, aliases);
+export default Object.assign(commands, aliases);

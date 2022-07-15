@@ -12,6 +12,7 @@
     "christian"
   ],
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint ./**/*.js",
     "prettier": "prettier --write \"**/*.{md,js}\"",
@@ -26,18 +27,21 @@
   "bugs": {
     "url": "https://github.com/alexmacarthur/christian-git/issues"
   },
+  "engines": {
+    "node": ">=13.2.0"
+  },
   "homepage": "https://github.com/alexmacarthur/christian-git#readme",
   "bin": {
     "christian-git": "./index.js"
   },
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^5.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "husky": "^7.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2"
+    "eslint": "^8.19.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
