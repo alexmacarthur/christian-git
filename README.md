@@ -39,7 +39,7 @@ Commands that override core Git commands.
 | stash           | bear-cross       | Let Him bear the burden.                                                              |
 | status          | walk             | How's your code's walk with the Lord?                                                 |
 | tag             | testament        | God's way of semantic versioning.                                                     |
-| tag             | circumcise       | A snip, er — sign that you’ve been set apart. symbol.                                 |
+| tag             | circumcise       | A snip, er — sign that you’ve been set apart.                                         |
 | bisect          | lost-sheep       | Become the good shepherd and find those led astray.                                   |
 
 ## Alias
