@@ -24,6 +24,7 @@ Commands that override core Git commands.
 | commit          | save             | Commit your code to the Lord and it will be saved.                                    |
 | diff            | reform           | The repo reformed, always being reformed by the power of the Admin.                   |
 | fetch           | fishers-of-men   | Become a fisher of (the code of) men.                                                 |
+| help            | cry-out          | And the terminal will have mercy.                                                     |
 | init            | create           | Before this, there was nothing.                                                       |
 | init            | in-the-beginning | Start us off, God.                                                                    |
 | log             | testimony        | Use your code's testimony to share the path the Lord has led you along.               |
@@ -35,8 +36,10 @@ Commands that override core Git commands.
 | reset           | ark              | God hit reset on the earth.                                                           |
 | revert          | repent           | Turn back from your sinful ways.                                                      |
 | stash           | sow-and-reap     | Regularly sow your code so that you may reap its blessings later.                     |
+| stash           | bear-cross       | Let Him bear the burden.                                                              |
 | status          | walk             | How's your code's walk with the Lord?                                                 |
 | tag             | testament        | God's way of semantic versioning.                                                     |
+| tag             | circumcise       | A snip, er — sign that you’ve been set apart. symbol.                                 |
 | bisect          | lost-sheep       | Become the good shepherd and find those led astray.                                   |
 
 ## Alias
