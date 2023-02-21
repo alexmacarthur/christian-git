@@ -14,18 +14,19 @@ const commands = {
   commit: ['save'],
   diff: ['reform'],
   fetch: ['fishers-of-men'],
+  help: ['cry-out'],
   init: ['in-the-beginning', 'create'],
   log: ['testimony'],
   merge: ['trinity'],
   pull: ['petition'],
-  push: ['preach'],
+  push: ['preach'], 
   rebase: ['disciple'],
   restore: ['resurrect'],
   reset: ['ark'],
   revert: ['repent'],
-  stash: ['sow-and-reap'],
+  stash: ['sow-and-reap', 'bear-cross'],
   status: ['walk'],
-  tag: ['testament'],
+  tag: ['testament', 'circumcise'],
   bisect: ['lost-sheep']
 };
 
